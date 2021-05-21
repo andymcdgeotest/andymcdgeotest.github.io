@@ -274,7 +274,7 @@ sass:
 # file: _config.yml
 defaults:
   - scope:
-      url: /_posts/
+      url: /blog/
     values:
       menu: true
       order: 1
