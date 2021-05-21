@@ -50,6 +50,18 @@ author:
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
+# file: _config.yml
+menu:
+  - title: Blog
+      url: /blog/
+  - title: Projects
+      path: projects.md
+  - scope:
+      path: resume.md
+  - scope:
+      path: about.md
+
+
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. Andy McDonald.
 
@@ -271,25 +283,3 @@ sass:
 #   path:                atom.xml
 
 
-# file: _config.yml
-defaults:
-  - title: Blog
-      url: /blog/
-    values:
-      menu: true
-      order: 1
-  - title: Projects
-      path: projects.md
-    values:
-      menu: true
-      order: 2
-  - scope:
-      path: resume.md
-    values:
-      menu: true
-      order: 3
-  - scope:
-      path: about.md
-    values:
-      menu: true
-      order: 4
