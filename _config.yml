@@ -273,12 +273,12 @@ sass:
 
 # file: _config.yml
 defaults:
-  - scope:
+  - title: Blog
       url: /blog/
     values:
       menu: true
       order: 1
-  - scope:
+  - title: Projects
       path: projects.md
     values:
       menu: true
