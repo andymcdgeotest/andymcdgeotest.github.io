@@ -46,6 +46,7 @@ logo:                  /assets/icons/icon.png
 author:
   name:                Andy McDonald
   email:               <mail@domain.tld>
+  picture:             /assets/icons/icon.png
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -273,7 +274,7 @@ sass:
 # file: _config.yml
 defaults:
   - scope:
-      path: blog.md
+      url: /_posts/
     values:
       menu: true
       order: 1
